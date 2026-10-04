@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "COD I SII",
+    "slug": "codsii",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "codsii",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "COD I SII uses your location to share your position with trusted contacts during an emergency.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "COD I SII uses your location to share your position with trusted contacts during an emergency."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F1EA",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "name": "COD I SII",
+      "shortName": "COD I SII",
+      "lang": "en",
+      "description": "A calm safety companion you can try in a phone browser.",
+      "themeColor": "#F4F1EA",
+      "backgroundColor": "#F4F1EA",
+      "display": "standalone",
+      "orientation": "portrait",
+      "startUrl": "/",
+      "barStyle": "default"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#F4F1EA"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow COD I SII to use your location to share it with trusted contacts in an emergency."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
