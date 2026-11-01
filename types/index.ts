@@ -61,6 +61,31 @@ export type LearnTopic = {
   category: string;
 };
 
+export type SafetyGuideId =
+  | 'phishing'
+  | 'verification'
+  | 'money'
+  | 'pressure'
+  | 'photos'
+  | 'ai'
+  | 'unclear'
+  | 'english'
+  | 'immediate';
+
+export type SafetyGuide = {
+  id: SafetyGuideId;
+  happening: string;
+  now: string;
+  /** Learn topic to open. Null when a lesson would not help. */
+  lessonId: string | null;
+  lessonCta: string | null;
+  /** Section label above the lesson link. */
+  lessonPrompt: string | null;
+  supportIntro: string;
+  supportCategories: string[];
+  showSos: boolean;
+};
+
 export type SafetyPreferences = {
   silentMode: boolean;
   shakeEnabled: boolean;

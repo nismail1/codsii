@@ -68,6 +68,42 @@ export const LEARN_TOPICS: LearnTopic[] = [
     ],
   },
   {
+    id: 'phishing',
+    title: 'Spotting phishing',
+    summary: 'How fake links and pretend relatives try to get into your accounts.',
+    category: 'Fraud',
+    body: [
+      'Phishing means someone pretends to be a person or service you trust, then asks you to open a link, log in, or share a code.',
+      'A real relative does not need you to log in through a surprise WhatsApp link.',
+      'A verification code is only for you. Anyone who asks for one may be trying to enter your account.',
+      'Check the story using a phone number you already saved. Do not call the number written in the suspicious message.',
+    ],
+  },
+  {
+    id: 'pressure',
+    title: 'Online pressure',
+    summary: 'What to do when someone threatens you or demands photos or money.',
+    category: 'Harassment',
+    body: [
+      'You do not have to do what they demand. Sending money or more images often makes the pressure worse.',
+      'Stop replying if you can. Block and report the account.',
+      'Save evidence only if that feels safe. A screenshot can help a trusted person understand what happened.',
+      'Tell someone you trust, or use a verified support option. You are not at fault for someone else threatening you.',
+    ],
+  },
+  {
+    id: 'stolen-photos',
+    title: 'When someone uses your photos',
+    summary: 'What to do if your pictures show up as if they belong to someone else.',
+    category: 'Social',
+    body: [
+      'Someone may be building a fake account, or pretending your photos are theirs.',
+      'Report and block the account in the app where you found it.',
+      'Tell people who might believe that account is you, so they do not trust it.',
+      'Do not send more photos to the person doing this. If they threaten you, stop replying and use a verified support option.',
+    ],
+  },
+  {
     id: 'social',
     title: 'Safe Social Media Use',
     summary: 'Reduce risk while staying connected online.',

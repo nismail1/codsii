@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { LEARN_TOPICS } from '../../data/content';
 import { LearnCard } from '../../components/LearnCard';
+import { SafetyEntryCard } from '../../components/SafetyEntryCard';
 import { Screen } from '../../components/Screen';
 import { colors, fonts, spacing } from '../../theme';
 
@@ -16,6 +17,8 @@ export default function LearnScreen() {
           Practical digital-safety guidance for women and families — stored on your device.
         </Text>
       </View>
+
+      <SafetyEntryCard />
 
       <View style={styles.list}>
         {LEARN_TOPICS.map((topic) => (

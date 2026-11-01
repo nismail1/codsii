@@ -161,6 +161,15 @@ export const DEMO_SUPPORT_PARTNERS: SupportPartner[] = [
     verified: true,
     availability: 'Available',
   },
+  {
+    id: 'sp-8',
+    name: 'Digital Safety Helpline',
+    role: 'Digital-safety advisor',
+    serviceArea: 'Hargeisa · Mogadishu',
+    categories: ['Digital-safety guidance', 'Scam support'],
+    verified: true,
+    availability: 'Available',
+  },
 ];
 
 export const DEMO_CATEGORY_SHARES: CategoryShare[] = [

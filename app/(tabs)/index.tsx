@@ -4,6 +4,7 @@ import { useRouter } from 'expo-router';
 import { MapPreview } from '../../components/MapPreview';
 import { QuickExitButton } from '../../components/QuickExitButton';
 import { Screen } from '../../components/Screen';
+import { SafetyEntryCard } from '../../components/SafetyEntryCard';
 import { SOSButton } from '../../components/SOSButton';
 import { StatusCard } from '../../components/StatusCard';
 import { useLocation } from '../../hooks/useLocation';
@@ -64,6 +65,8 @@ export default function HomeScreen() {
         )}
         {silentMode ? <Text style={styles.silentBadge}>Silent Mode on</Text> : null}
       </View>
+
+      <SafetyEntryCard />
 
       <View style={styles.statusGrid}>
         <StatusCard

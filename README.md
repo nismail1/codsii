@@ -34,6 +34,7 @@ Scan the QR code with Expo Go on your phone (same Wi‑Fi). Avoid “Open in web
 - Configurable emergency services
 - Silent Mode + Quick Exit
 - Digital safety Learn section
+- Safety Assistant for suspicious online messages, linked to lessons and verified support
 - First-launch onboarding
 
 ## Architecture

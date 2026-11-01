@@ -98,6 +98,9 @@ export default function RootLayout() {
         <Stack.Screen name="emergency/active" options={{ gestureEnabled: false }} />
         <Stack.Screen name="quick-exit" options={{ animation: 'fade' }} />
         <Stack.Screen name="admin/index" options={{ animation: 'slide_from_right' }} />
+        <Stack.Screen name="safety/index" options={{ animation: 'slide_from_right' }} />
+        <Stack.Screen name="safety/support" options={{ animation: 'slide_from_right' }} />
+        <Stack.Screen name="safety/lesson/[id]" options={{ animation: 'slide_from_right' }} />
       </Stack>
     </WebAppFrame>
   );
